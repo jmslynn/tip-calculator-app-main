@@ -1,0 +1,16 @@
+body {
+  background: hsl(0, 0%, 100%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+button {
+  background-color: hsl(183, 100%, 15%);
+  color: #ffffff;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}

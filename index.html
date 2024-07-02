@@ -1,44 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Tip calculator app</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  Bill
+    <title>Frontend Mentor | Tip calculator app</title>
 
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
 
-  Number of People
+  <body>
+  <container id="title">
+    <h1>SPLITTER</h1>
+  </container>
+  <container id="parent" class="flex-container">
+    <div id="bill-area">
+    <! -- Bill Entry Area -->
+      Bill
+      <br />
+      <textarea id="message" name="message" rows="1" cols="20"></textarea>
+      <br />
 
-  Tip Amount
-  / person
+      Select Tip %
+      <br />
+      <button>5%</button>
+      <button>10%</button>
+      <button>15%</button>
+      <br />
+      <button>25%</button>
+      <button>50%</button>
+      <button>Custom</button>
+      <br />
 
-  Total
-  / person
+      Number of People
+      <br />
+      <textarea id="message" name="message" rows="1" cols="20"></textarea>
+      </div>
+      <! -- Closing bill area -->
+      
+      <div id="amount-display-area">
+      <! -- Amount Display Area -->
+        Tip Amount
+        / person
+        $0.00
+        
+        <br />
 
-  Reset
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        Total
+        / person
+        $0.00
+        
+        <br />
+
+        <button>Reset</button>
+        </div>
+        <! -- Closing amount area -->
+  </container>
+
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="#">Your Name Here</a>.
+        </div>
+  </body>
+
 </html>
