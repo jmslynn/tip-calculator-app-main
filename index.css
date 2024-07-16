@@ -1,5 +1,8 @@
+
+
 body {
-  background: hsl(0, 0%, 100%);
+  background-color: hsl(185, 41%, 84%);
+  font-family: "space-mono-bold", monospace;
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -13,4 +16,28 @@ button {
 .flex-container {
   display: flex;
   flex-direction: row;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
 }
